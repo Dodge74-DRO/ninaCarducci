@@ -50,6 +50,11 @@ body {
 	position: relative;
 }
 
+span .carousel-control-prev-icon,
+span .carousel-control-next-icon {
+	color:#e61a1a
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
