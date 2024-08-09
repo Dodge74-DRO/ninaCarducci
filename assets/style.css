@@ -42,17 +42,18 @@ body {
 	width: 20px;
 }
 
+.hidden-overflow {
+	position: relative;
+	top: -10000em;
+	color:#000;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
-}
-
-span .carousel-control-prev-icon,
-span .carousel-control-next-icon {
-	color:#e61a1a
 }
 
 .picture.left::before {
@@ -128,6 +129,7 @@ span .carousel-control-next-icon {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
